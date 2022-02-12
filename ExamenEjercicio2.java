@@ -14,10 +14,10 @@ public class ExamenEjercicio2 {
         System.out.println("==========================");
 
         System.out.print("Ingrese la opción: ");
-        int menuSelectData = KeyInput.nextInt();
+        int OPCIONES = KeyInput.nextInt();
 
 
-        if(menuSelectData == 1) {
+        if(OPCIONES  == 1) {
             System.out.print("Ingrese el primer numero: ");
             int numberOne = KeyInput.nextInt();
             System.out.print("Ingrese el primer numero: ");
@@ -29,7 +29,7 @@ public class ExamenEjercicio2 {
             }
         }
 
-        if(menuSelectData == 2) {
+        if(OPCIONES == 2) {
             System.out.print("Ingrese el dia de la semana: ");
             int dayWeek = KeyInput.nextInt();
         
@@ -61,7 +61,7 @@ public class ExamenEjercicio2 {
             }
         }
 
-        if(menuSelectData == 3) {
+        if(OPCIONES == 3) {
             System.out.print("Ingrese un numero para comprobar: ");
             int numberPNN = KeyInput.nextInt();
 
@@ -79,7 +79,7 @@ public class ExamenEjercicio2 {
             
         }
 
-        if(menuSelectData == 4) {
+        if(OPCIONES == 4) {
             System.out.print("Ingrese un numero para comprobar: ");
             int numberCom1 = KeyInput.nextInt();
             System.out.print("Ingrese un numero para comprobar: ");
