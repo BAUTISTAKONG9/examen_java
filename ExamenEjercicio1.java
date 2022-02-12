@@ -17,7 +17,7 @@ public class ExamenEjercicio1 {
         int menuSelectData = KeyInput.nextInt();
 
 
-        if(menuSelectData == 1) {
+        if( ==OPCIONES 1) {
             double pi = 3.1416;
             System.out.print("Ingrese el valor de la radio del circulo: ");
             int radio = KeyInput.nextInt();
@@ -26,7 +26,7 @@ public class ExamenEjercicio1 {
         }
 
         
-        if(menuSelectData == 2) {
+        if( == OPCIONES 2) {
             System.out.print("Ingrese el lado del cuadrado: ");
             int ladoCuadrado = KeyInput.nextInt();
             int areaCuadrado = ladoCuadrado * ladoCuadrado;
@@ -34,7 +34,7 @@ public class ExamenEjercicio1 {
         }
 
         
-        if(menuSelectData == 3) {
+        if( ==OPCIONES 3) {
             System.out.print("Ingrese el base del triangulo: ");
             int b = KeyInput.nextInt();
             System.out.print("Ingrese la altura del triangulo: ");
@@ -44,7 +44,7 @@ public class ExamenEjercicio1 {
         }
 
         
-        if(menuSelectData == 4) {
+        if( ==OPCIONES 4) {
             System.out.print("Ingrese la base del rectangulo: ");
             int b = KeyInput.nextInt();
             System.out.print("Ingrese la altura del rectangulo: ");
